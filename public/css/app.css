@@ -1,1 +1,107 @@
-css file...
+body {
+  font-family: Georgia, Times, serif;
+  line-height: 1.2em;
+  font-size: 1em;
+}
+
+header {
+  height: 206px;
+  width: 100%;
+  margin: 0px auto;
+  display: inline-block;
+  clear: both;
+  /*background-color: #F4EAC0;*/
+  border: 1px solid black;
+}
+
+nav select {
+  float: right;
+}
+
+nav {
+  max-width: 60%;
+  margin: 0px auto;
+}
+
+nav ul {
+  text-align: center;
+  margin: 1px;
+  font-family: 'Indie Flower', cursive;
+  font-style: bold;
+}
+
+nav li {
+  display: inline-block;
+  padding: 85px 20px 90px 20px;
+}
+
+nav li:first-child {
+  margin-left: 50px;
+}
+
+nav li:last-child {
+  margin-right: -220px;
+}
+
+nav li a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+nav select {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+#logo {
+  margin: 1px 0px 0px 1px;
+  padding: 0px;
+  border: 2px solid black;
+  float: left;
+  position: absolute;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+
+#site-intro {
+  margin: 10px 20px;
+  font-size: 1.2em;
+}
+
+#instrument {
+  float: left;
+  max-width: 80%;
+}
+
+#artist {
+  max-width: 10em;
+  max-height: 10em;
+}
+
+#about-info {
+  margin: 10px 20px;
+  font-size: 1.2em;
+}
+
+footer {
+  display: block;
+  margin-left: 20px;
+}
