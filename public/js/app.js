@@ -16,6 +16,7 @@ $(document).ready(function() {
   fullpage.initialize('#fullpage', {
     anchors: ['firstpage', 'secondPage', 'thirdPage', 'lastPage'],
     menu: '#menu',
+    controlArrows: true,
     css3:true
   });
 });
