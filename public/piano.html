@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link type="text/css" rel="stylesheet" href="css/pageScroll.css">
+  <link type="text/css" rel="stylesheet" href="css/instrument.css">
+  <link type="text/css" rel="stylesheet" href="css/flipClock.css">
+  <!--<img id="logo" src="http://i.imgur.com/8fVZWRF.png" title="Shed Time" />
+  <!-- need to link img to home page
+    <nav>
+      <ul>
+        <li><a class="nav-link" href="piano.html" class="active">Piano</a></li>
+        <li><a class="nav-link" href="drums.html">Drums</a></li>
+        <li><a class="nav-link" href="shed-log.html">Shed Log</a></li>
+      </ul>
+      <select>
+        <option value="" selected="selected">Select</option>
+
+        <option value="/">Home</option>
+        <option value="/collections/all">Piano</option>
+        <option value="/blogs/five-simple-steps-blog">Drums</option>
+        <option value="/blogs/five-simple-steps-blog">Shed Log</option>
+      </select>
+    </nav>
+  <img id="shed" src="http://i.imgur.com/F2itZD7.jpg" />-->
   <meta charset="UTF-8">
   <title>Piano</title>
-
-  <link type="text/css" rel="stylesheet" href="css/flipClock.css">
 </head>
 <body>
-  <div class="clock"></div>
+  <div id="fullpage">
+
+    <section class="section" id="section1">
+      <section class="content">
+        <h1>Build Your Skills!</h1>
+          <h3> Technique</h3>
+            <p>Learning good technique is they key to getting your ideas out of your head and into your instrument. Check out these exercises to step up your chops.</p>
+        <input id="technique" type="checkbox">
+      </section>
+    </section>
+
+    <section class="section" id="section2">
+      <section class="content">
+        <h1>Scales</h1>
+          <p>Goals: Play through this scale ascending and descending. Start slow and gradually increase the tempo.</p>
+        <input id="scales" type="checkbox">
+      </section>
+    </section>
+
+    <section class="section" id="section3">
+      <section class="content">
+        <h1>Triads</h1>
+          <p>Triads are the building blocks to playing cool songs like My Sharona, I Wanna Hold Your Hand, and the snowman song from Frozen. Practice these triad inversions so you can move around the keyboard fluidly.
+           Goals: Play through these triad inversions starting at the bottom of the piano and moving up to the top.</p>
+        <input id="triads" type="checkbox">
+      </section>
+    </section>
+
+    <section class="section" id="section4">
+      <section class="content">
+        <h1>Musical Example</h1>
+          <p>You have the tools you need to start jamming, so check out 'The Best Song Ever' by One Direction. Make sure to move as few fingers as possible when switching chords.
+          </p>
+        <input id="musicExample" type="checkbox">
+      </section>
+    </section>
+  </div>
 
   <script src="../deps/jquery.js"></script>
+  <script src="../deps/pageScroll.js"></script>
   <script src="../deps/flipClock.js"></script>
   <script src="js/app.js"></script>
 </body>
