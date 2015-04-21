@@ -1,1 +1,5 @@
-page js functionality
+'use strict';
+
+$(function()
+
+);
