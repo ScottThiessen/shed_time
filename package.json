@@ -5,7 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.12.3",
-    "express-stormpath": "^1.0.4"
+    "express-stormpath": "^1.0.4",
+    "flipclock": "^0.7.8"
   },
   "devDependencies": {},
   "scripts": {
