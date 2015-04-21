@@ -10,5 +10,12 @@ $(document).ready(function() {
   clock.setTime(600);
   $('.clock').click(function() {
     clock.start();
-  })
+  });
+  //end countdown clock
+
+  fullpage.initialize('#fullpage', {
+    anchors: ['firstpage', 'secondPage', 'thirdPage', 'lastPage'],
+    menu: '#menu',
+    css3:true
+  });
 });
