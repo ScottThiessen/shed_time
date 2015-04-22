@@ -1,6 +1,6 @@
 'use strict';
 
-$(document).ready(function() {
+$(function(){
   var clock = $('.clock').FlipClock({
     autoStart: false,
     countdown: true,
