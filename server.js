@@ -16,21 +16,21 @@ app.use(express.static(__dirname + '/public'));
   enableForgotPassword: true
 }));*/
 
-app.get('/', function(req, res) {
-  res.status(200).sendFile(path.join(__dirname, 'public/', 'index.html'));
-});
+// app.get('/', function(req, res) {
+//   res.status(200).sendFile(path.join(__dirname, 'public/', 'index.html'));
+// });
 
-app.get('/piano.html', function(req, res) {
-  res.status(200).sendFile(path.join(__dirname, 'public/', 'piano.html'));
-});
+// app.get('/piano.html', function(req, res) {
+//   res.status(200).sendFile(path.join(__dirname, 'public/', 'piano.html'));
+// });
 
-app.get('/drums.html', function(req, res) {
-  res.status(200).sendFile(path.join(__dirname, 'public/', 'drums.html'));
-});
+// app.get('/drums.html', function(req, res) {
+//   res.status(200).sendFile(path.join(__dirname, 'public/', 'drums.html'));
+// });
 
-app.get('/*', function(req, res) {
-  res.status(404).sendFile(path.join(__dirname, 'public/', '404.html'));
-});
+// app.get('/*', function(req, res) {
+//   res.status(404).sendFile(path.join(__dirname, 'public/', '404.html'));
+// });
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running at localhost: ' + app.get('port'));
