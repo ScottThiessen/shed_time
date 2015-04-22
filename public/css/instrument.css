@@ -96,6 +96,18 @@ p{
   color: #FFFDFF;
   text-decoration: underline;
 }
+#major-scale {
+  width: 500px;
+  height: 150px;
+}
+#minor-scale {
+  width: 500px;
+  height: 150px;
+}
+#blues-scale {
+  width: 500px;
+  height: 150px;
+}
 
 /* Section 2
  * --------------------------------------- */
@@ -107,6 +119,9 @@ p{
 }
 #section2 p{
   opacity: 0.8;
+}
+#f-triad {
+  width: 450px;
 }
 
 /* Section 3
@@ -129,6 +144,9 @@ p{
 }
 #flams {
   height: 90px;
+}
+#song {
+  width: 500px;
 }
 
 /* Section 4
