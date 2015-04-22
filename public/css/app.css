@@ -1,7 +1,9 @@
 body {
-  font-family: Georgia, Times, serif;
+  font-family: 'Josefin Sans', sans-serif, serif;
   line-height: 1.2em;
-  font-size: 1em;
+  font-size: 1.2em;
+  background-color: #01A2A6;
+  color: #ffffff;
 }
 
 header {
@@ -11,7 +13,7 @@ header {
   display: inline-block;
   clear: both;
   /*background-color: #F4EAC0;*/
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 nav select {
@@ -36,7 +38,7 @@ nav li {
 }
 
 nav li:first-child {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 nav li:last-child {
@@ -44,21 +46,25 @@ nav li:last-child {
 }
 
 nav li a:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #01A2A6;
 }
 
 nav select {
   display: none;
 }
 
-@media (max-width: 960px) {
+h1 {
+  font-size: 1.5em;
+}
+
+@media (max-width: 940px) {
   nav ul     { display: none; }
   nav select { display: inline-block; }
 }
 
 .nav-link {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   font-size: 3em;
 }
@@ -84,6 +90,7 @@ article {
 #site-intro {
   margin: 10px 20px;
   font-size: 1.2em;
+  max-width: 95%
 }
 
 #instrument {
@@ -91,10 +98,24 @@ article {
   max-width: 80%;
 }
 
-#artist {
+#artist1 {
+  max-width: 10em;
+  max-height: 10em;
+  border: 1px solid white;
+}
+
+/*#artist1:hover {
+  box-shadow: 5px 5px 5px #ffffff;
+}*/
+
+#artist2 {
   max-width: 10em;
   max-height: 10em;
 }
+
+/*#artist2:hover {
+  box-shadow: 5px 5px 5px #ffffff;
+}*/
 
 #about-info {
   margin: 10px 20px;
@@ -104,4 +125,5 @@ article {
 footer {
   display: block;
   margin-left: 20px;
+  font-size: 1.5em;
 }
