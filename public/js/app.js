@@ -9,6 +9,7 @@ $(function(){
   });
 
   clock.setTime(600);
+
   $('.clock').click(function() {
     clock.start();
   });
@@ -24,10 +25,8 @@ $(function(){
   //^^^^^^end page scrolling^^^^^^\\
 
   //------session storage---------\\
-  function setBoxes() {
-    if (localStorage.getItem($('.check').id)) {
-      $('.check').is(':checked') = localStorage.getItem($('.check').id);
-    };
+  if (localStorage.getItem('piano1-1')) {
+    $('#piano1-1').is(':checked') = localStorage.getItem('piano1-1');
   };
 
   $('.check').change(function() {
