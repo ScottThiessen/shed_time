@@ -8,10 +8,14 @@ $(function(){
     clockFace: 'minuteCounter'
   });
 
-  clock.setTime(600);
+  clock.setTime(300);
   $('.clock').click(function() {
     clock.start();
   });
+
+  $('.clock').dblclick(function() {
+    clock.stop();
+  })
   //^^^^^^^^^end countdown clock^^^^^^^^^^\\
 
   //----------page scrolling---------\\

@@ -23,8 +23,8 @@ $(function() {
     var totalPercentage = parseInt(((drumsTotalFilledIn / drumsTotalCount) * 100));
     console.log('Total' +  '%' + totalPercentage);
 
-    $('<p>%' + totalPercentage'</p>').appendTo('#last');
-  })
+    $('#last').append('<p>%' + totalPercentage + '</p>');
+  });
 
 
 
@@ -37,8 +37,8 @@ $(function() {
     var rudimentsPercentage = parseInt(((rudimentsFilledIn / rudimentsCount) * 100));
     console.log('%' + rudimentsPercentage);
 
-    $('<p>%' + rudimentsPercentage'</p>').appendTo('#1st');
-  })
+    $('#1st').append('<p>%' + rudimentsPercentage + '</p>');
+  });
 
 
 
@@ -51,8 +51,8 @@ $(function() {
     var stylesPercentage = parseInt(((stylesFilledIn / stylesCount) * 100));
     console.log('%' + stylesPercentage);
 
-    $('<p>%' + stylesPercentage'</p>').appendTo('#2nd');
-  })
+    $('#2nd').append('<p>%' + stylesPercentage + '</p>');
+  });
 
 
 
@@ -66,8 +66,8 @@ $(function() {
     var groovesPercentage = parseInt(((groovesFilledIn / groovesCount) * 100));
     console.log('%' + groovesPercentage);
 
-    $('<p>%' + groovesPercentage'</p>').appendTo('#3rd');
-  })
+    $('#3rd').append('<p>%' + groovesPercentage + '</p>');
+  });
 
 });
 

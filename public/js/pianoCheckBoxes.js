@@ -24,7 +24,7 @@ $(function() {
     var totalPercentage = parseInt(((pianoTotalFilledIn / pianoTotalCount) * 100));
     console.log('Total' +  '%' + totalPercentage);
 
-    $('<p>%' + totalPercentage'</p>')appendTo('#4');
+    $('#4').append('<p>%' + totalPercentage + '</p>');
   })
 
   //Calculates % of 'scales' boxes checked
@@ -37,7 +37,7 @@ $(function() {
     var scalesPercentage = parseInt(((scalesFilledIn / scalesCount) * 100));
     console.log('%' + scalesPercentage);
 
-    $('<p>%' + scalesPercentage'</p>')appendTo('#1';)
+    $('#1').append('<p>%' + scalesPercentage + '</p>');
   })
 
   //Calculates % of 'triads' boxes checked
@@ -50,7 +50,7 @@ $(function() {
     var triadsPercentage = parseInt(((triadsFilledIn / triadsCount) * 100));
     console.log('%' + triadsPercentage);
 
-    $('<p>%' + triadsPercentage'</p>')appendTo('#2');
+    $('#2').append('<p>%' + triadsPercentage + '</p>');
   })
 
 
@@ -64,7 +64,7 @@ $(function() {
     var musicPercentage = parseInt(((musicalFilledIn / musicalCount) * 100));
     console.log('%' + musicPercentage);
 
-    $('<p>%' + musicPercentage'</p>')appendTo('#3');
+    $('#3').append('<p>%' + musicPercentage + '</p>');
   })
 
 });
