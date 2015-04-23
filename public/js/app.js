@@ -1,6 +1,7 @@
 'use strict';
 
 $(function(){
+  //------start countdown clock----------\\
   var clock = $('.clock').FlipClock({
     autoStart: false,
     countdown: true,
@@ -11,12 +12,27 @@ $(function(){
   $('.clock').click(function() {
     clock.start();
   });
-  //end countdown clock
+  //^^^^^^^^^end countdown clock^^^^^^^^^^\\
 
+  //----------page scrolling---------\\
   fullpage.initialize('#fullpage', {
     anchors: ['firstpage', 'secondPage', 'thirdPage', 'lastPage'],
     menu: '#menu',
     controlArrows: true,
     css3:true
   });
+  //^^^^^^end page scrolling^^^^^^\\
+
+  //------session storage---------\\
+  function setBoxes() {
+    if (localStorage.getItem($('.check').id)) {
+      $('.check').is(':checked') = localStorage.getItem($('.check').id);
+    };
+  };
+
+  $('.check').change(function() {
+    localStorage.setItem(this.id, this.checked);
+  });
+  //^^^^^^end session storage^^^^^^\\
+
 });
