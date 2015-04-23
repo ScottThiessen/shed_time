@@ -233,22 +233,21 @@ p{
 }
 /* Section 5
  * --------------------------------------- */
- #section5 {
+#section5 {
   background-color: #00693E;
- }
+}
 #clock {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-
   margin-left: 38%;
   margin-top: -200px;
- }
- #section5 p{
+}
+#section5 p{
   color: #fff;
   opacity: 0.7;
   margin-top: -50px;
- }
- #section5 #inst{
+}
+#section5 #inst{
   opacity: 0.7;
- }
+}
