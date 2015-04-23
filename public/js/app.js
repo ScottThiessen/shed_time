@@ -21,7 +21,7 @@ $(function(){
 
   //----------page scrolling---------\\
   fullpage.initialize('#fullpage', {
-    anchors: ['firstpage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+    anchors: ['firstpage', 'secondPage', 'thirdPage', 'lastPage'],
     menu: '#menu',
     controlArrows: true,
     css3:true
@@ -30,7 +30,7 @@ $(function(){
 
   //------session storage---------\\
   if (localStorage.getItem('piano1-1')) {
-    $('#piano1-1').is(':checked') = localStorage.getItem('piano1-1');
+    $('#piano1-1').checked = localStorage.getItem('piano1-1');
   };
 
   $('.check').change(function() {
