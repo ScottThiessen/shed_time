@@ -8,12 +8,8 @@ $(function(){
     clockFace: 'minuteCounter'
   });
 
-<<<<<<< HEAD
-  clock.setTime(600);
 
-=======
   clock.setTime(300);
->>>>>>> master
   $('.clock').click(function() {
     clock.start();
   });
