@@ -90,6 +90,12 @@ p{
   color: #fff;
   opacity: 0.7;
 }
+#section1 li{
+  opacity: 0.5;
+  color: #4B4E50;
+  font-size: 25px;
+  text-decoration: underline;
+}
 
 #pianoHead {
   text-align: center;
@@ -120,6 +126,15 @@ p{
 #section2 p{
   opacity: 0.8;
 }
+#section2 li{
+  /*opacity: 0.5;*/
+  color: #F2F2F2;
+  font-size: 25px;
+  text-decoration: underline;
+}
+#section2 ul{
+  padding: 25px;
+}
 #f-triad {
   width: 450px;
 }
@@ -138,8 +153,19 @@ p{
 #section3 p{
   opacity: 0.6;
 }
+#section3 li{
+  /*opacity: 0.5;*/
+  color: #F2F2F2;
+  font-size: 25px;
+  text-decoration: underline;
+}
+#section3 ul{
+  padding: 5px;
+}
+
 #double-stroke {
   width: 1000px;
+  height: 150px;
 }
 #paradiddle {
   width: 1000px;
@@ -168,7 +194,24 @@ p{
   color: #4B4E50;
 }
 #section4 li{
-  opacity: 0.5;
+  opacity: 0.75;
   color: #4B4E50;
   font-size: 25px;
+  text-decoration: underline;
 }
+#section4 ul{
+  padding-top: 50px;
+}
+#gadd {
+  height: 110px;
+  width: 650px;
+}
+#bonham {
+  width: 650px;
+  height: 100px;
+}
+#milt {
+  width: 650px;
+  height: 100px;
+}
+
