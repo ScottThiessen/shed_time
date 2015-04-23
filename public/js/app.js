@@ -21,7 +21,7 @@ $(function(){
 
   //----------page scrolling---------\\
   fullpage.initialize('#fullpage', {
-    anchors: ['firstpage', 'secondPage', 'thirdPage', 'lastPage'],
+    anchors: ['firstpage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
     menu: '#menu',
     controlArrows: true,
     css3:true
