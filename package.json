@@ -1,0 +1,26 @@
+{
+  "name": "shed_time",
+  "version": "1.0.0",
+  "description": "read me stuff about site goes here...",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "express-stormpath": "^1.0.4",
+    "flipclock": "^0.7.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScottThiessen/shed_time.git"
+  },
+  "author": "ScottyThiessen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScottThiessen/shed_time/issues"
+  },
+  "homepage": "https://github.com/ScottThiessen/shed_time"
+}

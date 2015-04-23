@@ -1,0 +1,129 @@
+body {
+  font-family: 'Josefin Sans', sans-serif, serif;
+  line-height: 1.2em;
+  font-size: 1.2em;
+  background-color: #01A2A6;
+  color: #ffffff;
+}
+
+header {
+  height: 206px;
+  width: 100%;
+  margin: 0px auto;
+  display: inline-block;
+  clear: both;
+  /*background-color: #F4EAC0;*/
+  border: 1px solid white;
+}
+
+nav select {
+  float: right;
+}
+
+nav {
+  max-width: 60%;
+  margin: 0px auto;
+}
+
+nav ul {
+  text-align: center;
+  margin: 1px;
+  font-family: 'Indie Flower', cursive;
+  font-style: bold;
+}
+
+nav li {
+  display: inline-block;
+  padding: 85px 20px 90px 20px;
+}
+
+nav li:first-child {
+  margin-left: 40px;
+}
+
+nav li:last-child {
+  margin-right: -220px;
+}
+
+nav li a:hover {
+  background-color: #ffffff;
+  color: #01A2A6;
+}
+
+nav select {
+  display: none;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+@media (max-width: 940px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+#logo {
+  margin: 1px 0px 0px 1px;
+  padding: 0px;
+  border: 2px solid black;
+  float: left;
+  position: absolute;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+
+#site-intro {
+  margin: 10px 20px;
+  font-size: 1.2em;
+  max-width: 95%
+}
+
+#instrument {
+  float: left;
+  max-width: 80%;
+}
+
+#artist1 {
+  max-width: 10em;
+  max-height: 10em;
+  border: 1px solid white;
+}
+
+/*#artist1:hover {
+  box-shadow: 5px 5px 5px #ffffff;
+}*/
+
+#artist2 {
+  max-width: 10em;
+  max-height: 10em;
+}
+
+/*#artist2:hover {
+  box-shadow: 5px 5px 5px #ffffff;
+}*/
+
+#about-info {
+  margin: 10px 20px;
+  font-size: 1.2em;
+}
+
+footer {
+  display: block;
+  margin-left: 20px;
+  font-size: 1.5em;
+}

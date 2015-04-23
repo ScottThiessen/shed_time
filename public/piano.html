@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link type="text/css" rel="stylesheet" href="css/pageScroll.css">
+  <link type="text/css" rel="stylesheet" href="css/instrument.css">
+  <link type="text/css" rel="stylesheet" href="css/flipClock.css">
+  <meta charset="UTF-8">
+  <title>Piano</title>
+</head>
+<body>
+    <div id="fullpage">
+    <section class="section" id="section5">
+      <a id="drums-nav1" href="index.html"><img src="images/piano/logo.jpg"></a>
+      <a id="drums-nav2" href="shed_log.html"><img src="images/piano/woodshed2.jpg"></a>
+       <h1 id="pianoHead">Warm Up</h1>
+         <section class="content">
+          <p>Just like athletes, msucians also need to warm up. So take 5 minutes to stretch your fingers and get them moving. Once you feel warmed up, scroll down to the next section to get shedding!</p>
+          <li id="inst">click to start timer/double click to stop</li>
+          <div id="clock" class="clock"></div>
+        </section>
+    </section>
+    <section class="section" id="section1">
+      <section class="content">
+        <h1>Scales</h1>
+          <p>Goals: Play through these scales ascending and descending. Start slow and gradually increase the tempo. Scroll down to get to the next section.
+            <ul id="scales">
+              <li>C Major Scale</li>
+                <img id="major-scale" src="images/piano/c-major-scale-on-treble-clef.png">
+                <input id="piano1-1" class="check" type="checkbox">
+              <li>C Minor Scale</li>
+                <img id="minor-scale" src="images/piano/c-minor-scale-on-treble-clef.png">
+                <input id="piano1-2" class="check" type="checkbox">
+              <li>C Blues Scale</li>
+                <img id="blues-scale" src="images/piano/c-blues-scale-on-treble-clef.png">
+                <input id="piano1-3" class="check" type="checkbox">
+            </ul>
+          </p>
+      </section>
+
+    <section class="section" id="section2">
+      <section class="content">
+        <h1>Triads</h1>
+          <p>Triads are the building blocks to playing cool songs like My Sharona, I Wanna Hold Your Hand, and the snowman song from Frozen. Practice these triad inversions so you can move around the keyboard fluidly.
+           Goals: Play through these triad inversions starting at the bottom of the piano and moving up to the top. Scroll down to get to the next section.
+            <ul id="triads">
+              <li>C Triad Inversions</li>
+                <img id="c-triad" src="images/piano/c-major-triad2.jpeg">
+                <input id="piano2-1" class="check" type="checkbox">
+              <li>F Triad Inversions</li>
+                <img id="f-triad" src="images/piano/f-major-triad.jpeg">
+                <input id="piano2-2" class="check" type="checkbox">
+              <li>C Blues Scale</li>
+                <img id="blues-scale" src="images/piano/g-triad.jpg">
+                <input id="piano2-3" class="check" type="checkbox">
+            </ul>
+          </p>
+      </section>
+
+      <section class="section" id="section3">
+        <section class="content">
+          <h1>Musical Example</h1>
+            <p>You have the tools you need to start jamming, so check out 'The Best Song Ever' by One Direction. Make sure to move as few fingers as possible when switching chords.
+              <ul id="musical">
+                <li>"The Best Song Ever - One Direction"</li>
+                  <img id="song" src="images/piano/the-best-song-ever.png">
+                  <input id="piano3-1" class="check" type="checkbox">
+              </ul>
+            </p>
+        </section>
+      </section>
+    </div>
+
+  <script src="../deps/jquery.js"></script>
+  <script src="../deps/pageScroll.js"></script>
+  <script src="../deps/flipClock.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/pianoCheckBoxes.js"></script>
+</body>
+</html>
