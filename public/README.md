@@ -1,2 +1,0 @@
-#Shed Time
-Shed time is a practice utility for musicians. There are two instruments to choose from: drums, and piano. The user selects an instrument and is presented with different sections of exercises to work on. Once they complete an exercise, they check the check box. The shed log displays the user stats such as: section completion percentage, total completion percentage, and number of completions.
