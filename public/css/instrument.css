@@ -9,11 +9,11 @@ a{
 }
 
 /*table {
-    border-spacing: 0;
+  border-spacing: 0;
 }*/
 
 fieldset,img {
-    border: 0;
+  border: 0;
 }
 
 /*address,caption,cite,code,dfn,em,strong,th,var {
@@ -214,4 +214,21 @@ p{
   width: 650px;
   height: 100px;
 }
-
+#piano-nav1 {
+  float: left;
+  margin-left: 5px;
+  margin-top: -25px;
+}
+#piano-nav2 {
+  float: right;
+  margin-right: 5px;
+  margin-top: -25px;
+}
+#drums-nav1 {
+  float: left;
+  margin-left: 5px;
+}
+#drums-nav2 {
+  float: right;
+  margin-right: 5px;
+}
