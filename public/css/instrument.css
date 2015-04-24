@@ -114,6 +114,15 @@ p{
   height: 150px;
 }
 
+#piano1, #drums1 {
+  position: absolute;
+  top: 92%;
+  left: 88%;
+  width: 120px;
+  height:40px;
+  border-radius: 5px;
+}
+
 /* Section 2
  * --------------------------------------- */
 #section2{
@@ -139,6 +148,15 @@ p{
 }
 #rock {
   width: 450px;
+}
+
+#piano2, #drums2 {
+  position: absolute;
+  top: 92%;
+  left: 88%;
+  width: 120px;
+  height:40px;
+  border-radius: 5px;
 }
 
 /* Section 3
@@ -176,6 +194,15 @@ p{
 }
 #song {
   width: 500px;
+}
+
+#piano3, #drums3 {
+  position: absolute;
+  top: 92%;
+  left: 88%;
+  width: 120px;
+  height:40px;
+  border-radius: 5px;
 }
 
 /* Section 4
