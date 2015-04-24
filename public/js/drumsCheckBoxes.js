@@ -14,7 +14,7 @@ $(function() {
   countBoxes2();
 
 
-  $(':checkbox').click(function(e) {
+  $(':checkbox').change(function(e) {
     if(e.target.checked) {
       drumsTotalFilledIn ++;
     } else {
