@@ -23,7 +23,7 @@ $(function() {
     var totalPercentage = parseInt(((drumsTotalFilledIn / drumsTotalCount) * 100));
     console.log('Total' +  '%' + totalPercentage);
 
-    $('#last').append('<p>%' + totalPercentage + '</p>');
+    $('.total').text('Total Page: ' + totalPercentage + '% complete');
   });
 
 
@@ -37,7 +37,7 @@ $(function() {
     var rudimentsPercentage = parseInt(((rudimentsFilledIn / rudimentsCount) * 100));
     console.log('%' + rudimentsPercentage);
 
-    $('#1st').append('<p>%' + rudimentsPercentage + '</p>');
+    $('#progress1').text('This Section: ' + rudimentsPercentage + '% complete');
   });
 
 
@@ -51,7 +51,7 @@ $(function() {
     var stylesPercentage = parseInt(((stylesFilledIn / stylesCount) * 100));
     console.log('%' + stylesPercentage);
 
-    $('#2nd').append('<p>%' + stylesPercentage + '</p>');
+    $('#progress2').text('This Section: ' + stylesPercentage + '% complete');
   });
 
 
@@ -66,7 +66,7 @@ $(function() {
     var groovesPercentage = parseInt(((groovesFilledIn / groovesCount) * 100));
     console.log('%' + groovesPercentage);
 
-    $('#3rd').append('<p>%' + groovesPercentage + '</p>');
+    $('#progress3').text('This Section: ' + groovesPercentage + '% complete');
   });
 
 });
