@@ -258,6 +258,14 @@ p{
   float: right;
   margin-right: 5px;
 }
+#totes {
+  opacity: 0.75;
+  color: #4B4E50;
+}
+#progress3 {
+  opacity: 0.75;
+  color: #4B4E50;
+}
 /* Section 5
  * --------------------------------------- */
 #section5 {

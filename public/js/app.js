@@ -10,7 +10,7 @@ $(function(){
 
   function load(){
     var checked = JSON.parse(localStorage.getItem('drums2-2'));
-    document.getElementById("drums2-2").checked = checked;
+    // document.getElementById("drums2-2").checked = checked;
   }
 
   load();
