@@ -20,6 +20,7 @@ $(function(){
   })
   //^^^^^^end session storage^^^^^^\\
 
+$(function() {
   //------start countdown clock----------\\
   var clock = $('.clock').FlipClock({
     autoStart: false,
