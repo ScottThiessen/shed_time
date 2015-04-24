@@ -103,18 +103,10 @@ article {
   border: 1px solid white;
 }
 
-/*#artist1:hover {
-  box-shadow: 5px 5px 5px #ffffff;
-}*/
-
 #artist2 {
   max-width: 10em;
   max-height: 10em;
 }
-
-/*#artist2:hover {
-  box-shadow: 5px 5px 5px #ffffff;
-}*/
 
 #about-info {
   margin: 10px 20px;

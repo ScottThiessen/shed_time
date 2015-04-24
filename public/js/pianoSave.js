@@ -17,6 +17,6 @@ $(function() {
 
   $('#piano1').click(function() {
     save();
-  })
+  });
   //^^^^^^end session storage^^^^^^\\
 });
